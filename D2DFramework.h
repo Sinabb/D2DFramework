@@ -13,6 +13,7 @@ public:
 	virtual HRESULT Initialize(HWND hwnd);
 	virtual void Relsase();
 	virtual void Render();
+	
 
 	void ShowError(LPCWSTR msg,LPCWSTR title = L"Error");
 };
