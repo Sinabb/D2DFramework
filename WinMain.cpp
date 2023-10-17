@@ -20,4 +20,6 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 		OutputDebugStringA(e.what());
 		MessageBoxA(nullptr, e.what(), "Error", MB_OK);
 	}
+
+	return 0;
 }
