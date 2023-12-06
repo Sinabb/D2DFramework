@@ -18,6 +18,7 @@ public:
 		sprintf_s(str, "Failed HRESULT : %08X", result);
 		return str;
 	}
+
 };
 
 inline void ThrowIfFailed(HRESULT hr)
